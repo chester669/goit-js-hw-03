@@ -5,7 +5,7 @@ function filterArray(numbers, value) {
       highNumbersArray.push(higherNumber);
     }
   }
-  return higherNumberArray;
+  return highNumbersArray;
 }
 console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]
 console.log(filterArray([1, 2, 3, 4, 5], 4)); // [5]
